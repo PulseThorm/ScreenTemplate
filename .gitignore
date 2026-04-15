@@ -1,0 +1,4 @@
+node_modules/
+.chrome-*/
+*.zip
+npm-debug.log*
