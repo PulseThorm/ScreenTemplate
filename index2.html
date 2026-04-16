@@ -30,7 +30,7 @@
                     <h2 class="section-title">Playback window</h2>
 
                     <div class="media-box medium">
-                        <video autoplay="autoplay" muted="muted" loop="loop" playsinline>
+                        <video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" webkit-playsinline="webkit-playsinline">
                             <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
@@ -51,7 +51,7 @@
                     <h2 class="section-title">Visual slot</h2>
 
                     <div class="media-box medium">
-                            <img src="https://r-charts.com/es/miscelanea/procesamiento-imagenes-magick_files/figure-html/color-fondo-imagen-r.png" alt="Sample image">
+                        <img src="http://dummyimage.com/960x720/294f8b/ffffff.png&text=IMG+2+http" alt="Sample image">
                     </div>
 
                     <div class="card">
@@ -61,12 +61,22 @@
                     <ul class="url-list">
                         <li><a href="https://www.wikipedia.org">https://www.wikipedia.org</a><span>URL preview source</span></li>
                         <li><a href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a><span>HTML reference</span></li>
-                        <li><a href="https://picsum.photos/">https://picsum.photos/</a><span>Image source</span></li>
+                        <li><a href="https://dummyimage.com/">https://dummyimage.com/</a><span>Image source</span></li>
                     </ul>
-                </section>
+                </div>
+
+                <div class="card card-light">
+                    <h3 class="section-title">Checklist</h3>
+                    <ul class="test-list">
+                        <li><span class="test-key">Imagen</span><span class="test-value">img directo por `http`</span></li>
+                        <li><span class="test-key">Iframe</span><span class="test-value">Wikipedia por `http://www.wikipedia.org`</span></li>
+                        <li><span class="test-key">Video</span><span class="test-value">`autoplay muted loop playsinline webkit-playsinline`</span></li>
+                    </ul>
+                </div>
+            </section>
             </div>
 
-            <div class="footer">+++ Three column view with URL, video and image +++ v1.2</div>
+            <div class="footer">+++ Three column view with URL, video and image +++ v1.3</div>
         </div>
     </div>
 </body>

@@ -319,6 +319,33 @@ body {
     border: 0;
 }
 
+.media-box object {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.image-bg {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-caption {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
 .url-list {
     margin: 0;
     padding: 0;
@@ -351,6 +378,42 @@ body {
     font-size: 12px;
     line-height: 1.4;
     opacity: 0.85;
+}
+
+.test-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.test-list li {
+    margin: 0 0 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.bg-soft .test-list li {
+    background: #ffffff;
+    border-color: #d9e2ef;
+}
+
+.test-key {
+    display: block;
+    font-size: 11px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    opacity: 0.75;
+}
+
+.test-value {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.4;
 }
 
 .tag-row {
