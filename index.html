@@ -36,7 +36,9 @@
                     <h2 class="section-title">Video and links</h2>
 
                     <div class="media-box small">
-                        <video autoplay muted loop playsinline webkit-playsinline preload="auto" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+                        <video autoplay="autoplay" muted="muted" loop="loop" preload="auto" src="http://www.w3schools.com/html/mov_bbb.mp4" oncanplay="this.play();" onloadedmetadata="this.play();">
+                            Tu navegador no soporta video HTML5.
+                        </video>
                     </div>
 
                     <div class="card card-light">

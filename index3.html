@@ -17,7 +17,7 @@
                     <p class="copy">The left side gives room for a large visual and a short explanation or headline.</p>
 
                     <div class="media-box tall">
-                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Landscape image">
+                        <img src="https://picsum.photos/1200/800?random=33" alt="Landscape image">
                     </div>
 
                     <div class="card card-light">
@@ -31,12 +31,17 @@
                     <h2 class="section-title">Playback and references</h2>
 
                     <div class="media-box medium">
-                        <video autoplay muted loop playsinline webkit-playsinline preload="auto" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+                        <video autoplay="autoplay" muted="muted" loop="loop" preload="auto" poster="https://picsum.photos/960/540?random=34" onloadedmetadata="this.play();">
+                            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                            Tu navegador no soporta video HTML5.
+                        </video>
                     </div>
 
                     <div class="card">
                         <ul class="url-list">
                             <li><a href="https://www.wikipedia.org">https://www.wikipedia.org</a><span>Reference URL</span></li>
+                            <li><a href="https://picsum.photos/">https://picsum.photos/</a><span>Image source</span></li>
                             <li><a href="https://www.w3schools.com/html/html5_video.asp">https://www.w3schools.com/html/html5_video.asp</a><span>Video support</span></li>
                         </ul>
                     </div>
